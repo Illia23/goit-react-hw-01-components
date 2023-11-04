@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const FriendList = ({ friends }) => {
     return (
-        <div>
+        <div className={css.container_for_friend}>
             <ul className={css.friendlist}>
                 {friends.map(({ avatar, name, isOnline, id }) => {
                     return (

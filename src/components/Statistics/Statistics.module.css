@@ -1,0 +1,45 @@
+/* Style for general section  */
+.statistics {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid #A1C487;
+}
+
+/* style for title  */
+
+.title {
+    color: #141414;
+
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+}
+
+/* style for list  */
+
+.stats {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+}
