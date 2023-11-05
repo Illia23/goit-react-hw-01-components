@@ -1,11 +1,11 @@
 import css from './FriendList.module.css';
 import PropTypes from 'prop-types';
 
-export const FriendList = ({ friends }) => {
+export const FriendList = (props) => {
     return (
         <div className={css.container_for_friend}>
             <ul className={css.friendlist}>
-                {friends.map(({ avatar, name, isOnline, id }) => {
+                {props.friends.map(({ avatar, name, isOnline, id }) => {
                     return (
                         <li key={id} className={css.item}>
                             <span className={`${css.status} ${css[isOnline]}`}>{isOnline}</span>
